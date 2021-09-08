@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  cursor: url(./image/disccolor.svg),auto;
 }
 
 a {
@@ -18,7 +19,8 @@ nav > ul > li {
 }
 
 .header {
-  border-bottom: 1px solid #e2e8f0;
+  /* border-bottom: 1px solid #e2e8f0; */
+  margin: 0px 40px;
 }
 
 .navbar {
@@ -59,13 +61,13 @@ nav > ul > li {
 }
 
 .nav-link:hover {
-  color: #482ff7;
+  color: #6d71f9;
 }
 
 .nav-logo {
   font-size: 2.1rem;
   font-weight: 500;
-  color: #482ff7;
+  color: #6d71f9;
 }
 
 /* about */
@@ -76,6 +78,7 @@ nav > ul > li {
   justify-content: center;
   align-items: center;
   margin: 130px auto;
+  
 }
 
 .profile_img {
@@ -216,7 +219,7 @@ nav > ul > li {
 }
 
 .desc > h4 > a {
-  color: #007bff;
+  color: #6d71f9;
 }
 
 .desc > h4 > a:hover {
@@ -229,7 +232,7 @@ nav > ul > li {
 }
 
 .other_projects > a {
-  color: #007bff;
+  color: #6d71f9;
 }
 
 .other_projects > a:hover {
@@ -337,6 +340,10 @@ label {
   text-transform: uppercase;
 }
 
+.submit_btn:hover{
+  cursor: pointer;
+}
+
 /* footer  */
 
 footer {
@@ -367,7 +374,7 @@ footer > hr {
   padding: 10px 20px;
 }
 
-.links > a > i {
+.links > a > svg {
   font-size: 1.6rem;
   width: 25px;
   height: 25px;
@@ -375,7 +382,7 @@ footer > hr {
 }
 
 .vs {
-  color: #007bff;
+  color: #6d71f9;
   font-weight: 500;
 }
 
@@ -519,6 +526,8 @@ footer > hr {
   padding: 2px 30px;
   margin-bottom: 45px;
 }
+
+ /* contect  */
 
 .contact {
   display: flex;
